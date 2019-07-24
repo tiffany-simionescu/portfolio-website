@@ -3209,14 +3209,14 @@
 			#banner input[type="reset"]:hover,
 			#banner input[type="button"]:hover,
 			#banner .button:hover {
-				background-color: rgba(232, 153, 128, 0.5);
+				background-color: rgba(127, 205, 184, 0.5);
 			}
 
 			#banner input[type="submit"]:active,
 			#banner input[type="reset"]:active,
 			#banner input[type="button"]:active,
 			#banner .button:active {
-				background-color: rgba(232, 153, 128, 0.5);
+				background-color: rgba(127, 205, 184, 0.5);
 			}
 
 			#banner input[type="submit"].primary,
@@ -3224,8 +3224,8 @@
 			#banner input[type="button"].primary,
 			#banner .button.primary {
 				/* background: #fff; */
-				background: #fff;
-				color: #666 !important;
+				background: #e89980;
+				color: #fff !important;
 			}
 
 /* Main */
