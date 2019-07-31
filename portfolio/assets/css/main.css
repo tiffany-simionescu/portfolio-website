@@ -3163,7 +3163,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("/images/santorini.jpeg");
+		background-image: url("../../images/santorini.jpeg");
 		/* background-image: url("../../images/banner.jpg");
 		opacity: 0.2; */
 		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
