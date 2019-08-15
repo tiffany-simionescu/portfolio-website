@@ -3166,6 +3166,7 @@
 		background-image: url("../../images/laptop-table.jpeg");
 		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 		background-repeat: no-repeat;
+		/* Change back to center center if new image */
 		background-position: center bottom;
 		background-attachment: fixed;
 		background-size: cover;
