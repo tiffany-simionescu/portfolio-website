@@ -85,7 +85,7 @@
 		const imgScale = document.querySelectorAll(".imgScale");
 
 		imgScale.forEach(event => {
-			
+
 			event.addEventListener("mouseover", e => {
 				e.target.style.transform = 'scale(1.05)'
 				e.target.style.transition = '0.5s';
@@ -97,5 +97,24 @@
 			})
 
 		});
+
+		// Button Hovering
+
+		const colorButton = document.querySelectorAll(".colorButton");
+
+		colorButton.forEach(event => {
+
+			event.addEventListener("mouseover", e => {
+				e.target.style.backgroundColor = "#7FCDB8";  //"rgba(127, 205, 184, 0.5)";
+				e.target.style.color = "#fff";
+				e.target.style.transition = '0.3s';
+			})
+
+			event.addEventListener("mouseout", e => {
+				e.target.style.backgroundColor = "#fff";
+				e.target.style.color = "#777";
+				e.target.style.transition = '0.3s';
+			})
+		})
 
 })(jQuery);
