@@ -28,6 +28,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		scroll-behavior: smooth;
 	}
 
 	article, aside, details, figcaption, figure,
@@ -3161,15 +3162,14 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("/images/santorini.jpeg");
-		/* background-image: url("../../images/banner.jpg");
-		opacity: 0.2; */
+		background-image: url("../../images/laptop-table.jpeg");
 		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-repeat: no-repeat;
+		/* Change back to center center if new image */
+		background-position: center bottom;
+		background-attachment: fixed;
+		background-size: cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -3407,7 +3407,7 @@
 		/* Banner */
 
 			#banner {
-				background-attachment: scroll;
+				background-attachment: fixed;
 			}
 
 				#banner h2 {
