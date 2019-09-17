@@ -84,18 +84,8 @@
 		// Image resizing
 		const imgScale = document.querySelectorAll(".imgScale");
 
-		// imgScale.addEventListener("mouseover", e => {
-		// 	e.target.style.transform = 'scale(1.03)'
-		// 	e.target.style.transition = '0.5s';
-		// });
-
-		// imgScale.addEventListener("mouseout", e => {
-		// 	e.target.style.transform = 'scale(1.0)'
-		// 	e.target.style.transition = '0.5s';
-		// })
-
 		imgScale.forEach(event => {
-
+			
 			event.addEventListener("mouseover", e => {
 				e.target.style.transform = 'scale(1.05)'
 				e.target.style.transition = '0.5s';
